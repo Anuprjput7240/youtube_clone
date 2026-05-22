@@ -6,7 +6,7 @@ export default function App() {
 
   const [videos, setVideos] = useState([]);
   const [selectedVideo, setSelectedVideo] = useState(null);
-  const [searchQuery, setSearchQuery] = useState("Vikram Sarkar");
+  const [searchQuery, setSearchQuery] = useState("Vikram");
 
   const API_KEY = "AIzaSyCol0KSBMuXFzMsrI-WJIWt_bC58ElIbdQ";
   // const API_KEY = import.meta.env.VITE_YOUTUBE_API_KEY;
